@@ -45,3 +45,15 @@ h2 {
 h1 {
     color: var(--primary-color);
 }
+hr {
+    width: 44vw;
+    height: 0.5rem;
+    border: none;
+}
+.left-hr {
+    background-color: var(--primary-color);
+}
+.right-hr {
+    background-color: white;
+}
+}
