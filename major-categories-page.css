@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "Bantangas";
+    src: url("fonts/batangas/Batangas-Bold.woff2");
+    src: url("fonts/batangas/Batangas-Bold.woff");
+}
+@font-face {
+    font-family: "DM Sans-Regular";
+    src: url("fonts/dm_sans/DMSans-Regular.ttf");
+}
