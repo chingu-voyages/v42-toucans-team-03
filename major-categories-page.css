@@ -42,3 +42,6 @@ h2 {
     height: 100vh;
     position: relative;
 }
+h1 {
+    color: var(--primary-color);
+}
