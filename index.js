@@ -13,5 +13,8 @@ async function getJoke() {
 }
 
 getJoke().then(joke => {
+    // CN fact destructured, 
+    // the value variable contains our CN quote
     const {categories, icon_url, id, url, value} = joke
+
 })
