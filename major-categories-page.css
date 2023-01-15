@@ -7,3 +7,6 @@
     font-family: "DM Sans-Regular";
     src: url("fonts/dm_sans/DMSans-Regular.ttf");
 }
+:root {
+    --primary-color:  #bb4e1e;
+}
