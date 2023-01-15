@@ -54,12 +54,16 @@ hr {
     width: 44vw;
     height: 0.5rem;
     border: none;
+    position: absolute;
+    top: 23vh;
 }
 .left-hr {
     background-color: var(--primary-color);
+    right: 0;
 }
 .right-hr {
     background-color: white;
+    left: 0;
 }
 .major-categories {
     height: inherit;
