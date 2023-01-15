@@ -66,4 +66,9 @@ hr {
     justify-content: space-around;
     align-items: center;
 }
+img {
+    height: 50vh;
+    position: absolute;
+    top: 35vh;
+    left: 15vw;
 }
