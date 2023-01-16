@@ -1,11 +1,11 @@
 @font-face {
   font-family: "Bantangas";
-  src: url("Fonts/batangas/Batangas-Bold.woff2");
-  src: url("Fonts/batangas/Batangas-Bold.woff");
+  src: url("Fonts\Batangas\Web Fonts\Batangas-Bold.woff");
+  src: url("Fonts\Batangas\Web Fonts\Batangas-Bold.woff2");
 }
 @font-face {
   font-family: "DM Sans-Regular";
-  src: url("Fonts/dm_sans/DMSans-Regular.ttf");
+  src: url("Fonts\DM_Sans\DMSans-Regular.ttf");
 }
 :root {
   --primary-color: #bb4e1e;
@@ -20,6 +20,12 @@ html {
   margin: auto;
 }
 
+h1 {
+font-family: 'Bantangas', "DM Sans-Regular", sans-serif;
+font-weight:bolder;
+font-style:normal;
+}
+
 body {
   background-image: url("/Images/norris-background.jpg");
   background-attachment: fixed;
@@ -27,9 +33,6 @@ body {
   background-repeat: no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
-}
-h1 {
-  font-family: "Bantangas", "Bodoni MT", "Bodoni 72", Garamond, serif;
 }
 
 #front {
@@ -46,4 +49,6 @@ h1 {
 #enter {
   border: 2px black solid;
   margin: 1rem;
+  padding: 1rem;
+  width: 40vw;
 }
