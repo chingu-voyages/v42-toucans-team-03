@@ -33,12 +33,14 @@ h2 {
     width: 100vw;
     height: 100vh;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
 .left,
 .right {
     width: 50vw;
+    min-width: 450px;
     height: 100vh;
     position: relative;
 }
