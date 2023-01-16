@@ -1,24 +1,49 @@
 @font-face {
-    font-family: "Bantangas";
-    src: url("fonts/batangas/Batangas-Bold.woff2");
-    src: url("fonts/batangas/Batangas-Bold.woff");
+  font-family: "Bantangas";
+  src: url("Fonts/batangas/Batangas-Bold.woff2");
+  src: url("Fonts/batangas/Batangas-Bold.woff");
 }
 @font-face {
-    font-family: "DM Sans-Regular";
-    src: url("fonts/dm_sans/DMSans-Regular.ttf");
+  font-family: "DM Sans-Regular";
+  src: url("Fonts/dm_sans/DMSans-Regular.ttf");
 }
 :root {
-    --primary-color:  #bb4e1e;
+  --primary-color: #bb4e1e;
 }
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
 }
+
+html {
+  display: table;
+  margin: auto;
+}
+
 body {
-    margin: 0;
-    width: 100vw;
-    height: 100vh;
-    font-family: 'DM Sans-Regular', 'Dejavu Sans', Verdana, sans-serif;
+  background-image: url("/Images/norris-background.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
 }
 h1 {
-    font-family: 'Bantangas', 'Bodoni MT', 'Bodoni 72', Garamond, serif;
+  font-family: "Bantangas", "Bodoni MT", "Bodoni 72", Garamond, serif;
+}
+
+#front {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  width: 50vw;
+  height: 100vh;
+  background-color: white;
+}
+
+#enter {
+  border: 2px black solid;
+  margin: 1rem;
 }
