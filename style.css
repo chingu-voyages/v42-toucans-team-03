@@ -39,13 +39,13 @@ h2 {
   justify-content: space-around;
   align-items: center;
 }
-#center {
-  padding: 5%;
+.center {
   width: 50vw;
   height: 100vh;
+  padding: 5%;
+  text-align: center;
   background-color: white;
 }
-
 #enter {
   border: 2px black solid;
   margin: 1rem;
