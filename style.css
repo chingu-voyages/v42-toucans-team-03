@@ -35,7 +35,7 @@ color: black;
 }
 
 body {
-  background-image: url("/Images/norris-background.jpg");
+  background-image: url("./Images/norris-background.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
