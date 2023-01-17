@@ -16,7 +16,9 @@ html {
   display: table;
   margin: auto;
 }
-
+body {
+  margin: 0;
+}
 h1 {
 font-family: 'Bantangas', "DM Sans-Regular", sans-serif;
 font-size: 5rem;
