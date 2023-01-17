@@ -7,10 +7,8 @@
   font-family: "DM Sans-Regular";
   src: url("Fonts/DM_Sans/DMSans-Regular.ttf");
 }
-
 * {
   box-sizing: border-box;
-  margin: 0;
 }
 
 html {
