@@ -73,10 +73,9 @@ h2 {
 .right {
   background-color: var(--primary-color);
 }
-h1 {
+#category-page h1 {
   margin-top: 5rem;
   margin-left: 5rem;
-  color: var(--primary-color);
 }
 hr {
   width: 44vw;
@@ -115,7 +114,6 @@ img {
   font-family: 'DM Sans-Regular', 'Dejavu Sans', Verdana, sans-serif;
   font-size: 1.2rem;
   color: var(--primary-color);
-
   cursor: pointer;
   border: none;
   border-radius: 5vh;
