@@ -29,16 +29,17 @@ h2 {
 }
 
 /* CSS for Landing Page */
-#center {
-  background-size: cover;
-}
-
 #landing-page {
+  width: 100vw;
+  height: 100vh;
+  background: url("Images/norris-background.jpg") center no-repeat;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  text-align: center;
+}
+#center {
   padding: 5%;
   width: 50vw;
   height: 100vh;
