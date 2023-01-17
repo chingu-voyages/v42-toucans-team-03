@@ -99,9 +99,9 @@ img {
   left: 15vw;
 }
 .categories {
-  height: 70vh;
+  height: 78vh;
   position: relative;
-  top: 28vh;
+  top: 20vh;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
