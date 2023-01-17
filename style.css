@@ -54,38 +54,7 @@ h2 {
   width: 40vw;
 }
 
-
-@font-face {
-  font-family: "Bantangas";
-  src: url("fonts/batangas/Batangas-Bold.woff2");
-  src: url("fonts/batangas/Batangas-Bold.woff");
-}
-@font-face {
-  font-family: "DM Sans-Regular";
-  src: url("fonts/dm_sans/DMSans-Regular.ttf");
-}
-:root {
-  --primary-color:  #bb4e1e;
-}
-* {
-  box-sizing: border-box;
-}
-body {
-  margin: 0;
-  width: 100vw;
-  height: 100vh;
-  font-family: 'DM Sans-Regular', 'Dejavu Sans', Verdana, sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-h1 {
-  font-family: 'Bantangas', 'Bodoni MT', 'Bodoni 72', Garamond, serif;
-  font-size: 3rem;
-}
-h2 {
-  font-size: 2.25rem;
-}
+/* CSS for Category Page */
 #category-page {
   width: 100vw;
   height: 100vh;
