@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "Bantangas";
+  src: url("Fonts/Batangas/Web Fonts/Batangas-Bold.woff");
+  src: url("Fonts/Batangas/Web Fonts/Batangas-Bold.woff2");
+}
+@font-face {
+  font-family: "DM Sans-Regular";
+  src: url("Fonts/DM_Sans/DMSans-Regular.ttf");
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  color: #bb4e1e;
+  display: table;
+  margin: auto;
+}
+
+h1 {
+font-family: 'Bantangas', "DM Sans-Regular", sans-serif;
+font-size: 5rem;
+font-weight:bolder;
+font-style:normal;
+}
+
+h2 {
+font-family: "DM Sans-Regular", sans-serif;
+font-size: 4rem;
+font-weight:bolder;
+font-style:normal;
+color: black;
+}
+
+body {
+  background-image: url("/Images/norris-background.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+#front {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  padding: 5%;
+  width: 50vw;
+  height: 100vh;
+  background-color: white;
+}
+
+#enter {
+  border: 2px black solid;
+  margin: 1rem;
+  font-size: larger;
+  padding: 1rem;
+  width: 40vw;
+}
