@@ -18,6 +18,9 @@ html {
 }
 body {
   margin: 0;
+  width: 100vw;
+  height: 100vh;
+  font-family: 'DM Sans-Regular', 'Dejavu Sans', Verdana, sans-serif;
 }
 h1 {
 font-family: 'Bantangas', "DM Sans-Regular", sans-serif;
