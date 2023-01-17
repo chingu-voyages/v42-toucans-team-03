@@ -43,7 +43,7 @@ body {
   background-size: cover;
 }
 
-#front {
+#landing-page {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
