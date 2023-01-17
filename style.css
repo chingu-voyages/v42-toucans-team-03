@@ -74,7 +74,7 @@ h2 {
   background-color: var(--primary-color);
 }
 #category-page h1 {
-  margin-top: 5rem;
+  margin-top: 2.5rem;
   margin-left: 5rem;
 }
 hr {
@@ -82,7 +82,7 @@ hr {
   height: 0.5rem;
   border: none;
   position: absolute;
-  top: 23vh;
+  top: 15vh;
 }
 .left-hr {
   background-color: var(--primary-color);
