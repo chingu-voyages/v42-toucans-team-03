@@ -1,64 +1,120 @@
 @font-face {
   font-family: "Bantangas";
-  src: url("Fonts/Batangas/Web Fonts/Batangas-Bold.woff");
   src: url("Fonts/Batangas/Web Fonts/Batangas-Bold.woff2");
+  src: url("Fonts/Batangas/Web Fonts/Batangas-Bold.woff");
 }
 @font-face {
   font-family: "DM Sans-Regular";
   src: url("Fonts/DM_Sans/DMSans-Regular.ttf");
 }
-
 * {
   box-sizing: border-box;
-  margin: 0;
 }
-
-html {
-  color: #bb4e1e;
-  display: table;
-  margin: auto;
+:root {
+  --primary-color:  #bb4e1e;
 }
-
-h1 {
-font-family: 'Bantangas', "DM Sans-Regular", sans-serif;
-font-size: 5rem;
-font-weight:bolder;
-font-style:normal;
-}
-
-h2 {
-font-family: "DM Sans-Regular", sans-serif;
-font-size: 4rem;
-font-weight:bolder;
-font-style:normal;
-color: black;
-}
-
 body {
-  background-image: url("./Images/norris-background.jpg");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  -webkit-background-size: cover;
-  background-size: cover;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  font-family: 'DM Sans-Regular', 'Dejavu Sans', Verdana, sans-serif;
+}
+h1 {
+  font-family: 'Bantangas', 'Bodoni MT', 'Bodoni 72', Garamond, serif;
+  font-size: 3rem;
+  color: var(--primary-color);
+}
+h2 {
+  font-size: 2.25rem;
 }
 
-#front {
+/* CSS for Landing Page */
+#landing-page {
+  width: 100vw;
+  height: 100vh;
+  background: url("Images/norris-background.jpg") center no-repeat;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  text-align: center;
-  padding: 5%;
+}
+.center {
   width: 50vw;
   height: 100vh;
+  padding: 5%;
+  text-align: center;
   background-color: white;
 }
-
 #enter {
   border: 2px black solid;
   margin: 1rem;
   font-size: larger;
   padding: 1rem;
   width: 40vw;
+}
+
+/* CSS for Category Page */
+#category-page {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.left,
+.right {
+  width: 50vw;
+  min-width: 450px;
+  height: 100vh;
+  position: relative;
+}
+.right {
+  background-color: var(--primary-color);
+}
+#category-page h1 {
+  margin-top: 2.5rem;
+  margin-left: 5rem;
+}
+hr {
+  width: 44vw;
+  height: 0.5rem;
+  border: none;
+  position: absolute;
+  top: 15vh;
+}
+.left-hr {
+  background-color: var(--primary-color);
+  right: 0;
+}
+.right-hr {
+  background-color: white;
+  left: 0;
+}
+img {
+  height: 50vh;
+  position: absolute;
+  top: 35vh;
+  left: 15vw;
+}
+.categories {
+  height: 78vh;
+  position: relative;
+  top: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.category-button {
+  width: 25vw;
+  height: 4.2vh;
+  background-color: white;
+  font-family: 'DM Sans-Regular', 'Dejavu Sans', Verdana, sans-serif;
+  font-size: 1rem;
+  color: var(--primary-color);
+  cursor: pointer;
+  border: none;
+  border-radius: 5vh;
 }
