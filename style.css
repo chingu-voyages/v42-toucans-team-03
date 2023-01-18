@@ -118,3 +118,11 @@ img {
   border: none;
   border-radius: 5vh;
 }
+#fact-page {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
