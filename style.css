@@ -28,12 +28,7 @@ h2 {
   font-size: 2.25rem;
 }
 
-body {
-  background-image: url("./Images/norris-background.jpg");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  -webkit-background-size: cover;
+/* CSS for Landing Page */
   background-size: cover;
 }
 
