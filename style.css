@@ -136,3 +136,13 @@ img {
   background-size: contain;
   transform: rotate(-8.96deg)
 }
+.autograph {
+  width: 32vw;
+  height: 20vh;
+  position: absolute;
+  top: 21.5em;
+  left: 30em;
+  background: url("Images/autograph.png") center no-repeat;
+  background-size: contain;
+  z-index: 2;
+}
