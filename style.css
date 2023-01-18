@@ -138,6 +138,19 @@ img {
   background-size: contain;
   transform: rotate(-8.96deg)
 }
+.fact-container {
+  width: 53vw;
+  height: 43vh;
+  background: var(--primary-color);
+  border-radius: 10px;
+  z-index: 1;
+}
+#category-fact {
+  width: inherit;
+  height: inherit;
+  padding: 2rem;
+  font-size: 1.8rem;
+}
 .autograph {
   width: 32vw;
   height: 20vh;
