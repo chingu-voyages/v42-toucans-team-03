@@ -146,3 +146,18 @@ img {
   background-size: contain;
   z-index: 2;
 }
+.next-container {
+  width: 10rem;
+  height: 8rem;
+  position: absolute;
+  bottom: 2rem;
+  right: 2rem;
+  background: url("Images/chuck-norris-kick.png") center no-repeat;
+  background-size: contain;
+
+}
+.next-container p {
+  margin-top: 4rem;
+  margin-left: 6rem;
+  font-size: 1.5rem;
+}
