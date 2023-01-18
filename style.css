@@ -126,3 +126,13 @@ img {
   justify-content: center;
   align-items: center;
 }
+.chuck-approved {
+  position: absolute;
+  width: 22vw;
+  height: 22vw;
+  top: 3rem;
+  left: 7rem;
+  background: url("Images/chuck-approved.png") center no-repeat;
+  background-size: contain;
+  transform: rotate(-8.96deg)
+}
