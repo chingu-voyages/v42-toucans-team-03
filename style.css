@@ -118,3 +118,61 @@ img {
   border: none;
   border-radius: 5vh;
 }
+
+/* CSS for Fact Page */
+#fact-page {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.chuck-approved {
+  position: absolute;
+  width: 22vw;
+  height: 22vw;
+  top: 3rem;
+  left: 7rem;
+  background: url("Images/chuck-approved.png") center no-repeat;
+  background-size: contain;
+  transform: rotate(-8.96deg)
+}
+.fact-container {
+  width: 53vw;
+  height: 43vh;
+  background: var(--primary-color);
+  border-radius: 10px;
+  z-index: 1;
+}
+#category-fact {
+  width: inherit;
+  height: inherit;
+  padding: 2rem;
+  font-size: 1.8rem;
+}
+.autograph {
+  width: 32vw;
+  height: 20vh;
+  position: absolute;
+  top: 21.5em;
+  left: 30em;
+  background: url("Images/autograph.png") center no-repeat;
+  background-size: contain;
+  z-index: 2;
+}
+.next-container {
+  width: 10rem;
+  height: 8rem;
+  position: absolute;
+  bottom: 2rem;
+  right: 2rem;
+  background: url("Images/chuck-norris-kick.png") center no-repeat;
+  background-size: contain;
+
+}
+.next-container p {
+  margin-top: 4rem;
+  margin-left: 6rem;
+  font-size: 1.5rem;
+}
