@@ -203,6 +203,7 @@ hr {
 }
 
 .member-card {
+  width: 275px;
   display: flex;
   flex-direction: column;
   align-items: center;
