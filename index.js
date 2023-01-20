@@ -39,5 +39,11 @@ for (button of buttons) {
   button.addEventListener("click", (e) => {
     pages[1].classList.toggle('hidden') /* hide categories page */
     pages[2].classList.toggle('hidden') /* show fact page */
+
+    input = e.target.innerText.toLowerCase(); /* select button text, convert to lowercase*/
+    getJoke(input).then(joke => {
+        const {categories, icon_url, id, url, value} = joke
+        document.getElementById('category-fact').innerHTML = value
+    })
   });
 }
