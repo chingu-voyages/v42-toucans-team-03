@@ -33,6 +33,7 @@ function togglePage() {
     pages[1].classList.toggle('hidden') /* show categories page */
 }
 
+/* Get Fact by Category */
 const buttons = document.getElementsByClassName("category-button");
 
 for (button of buttons) {
@@ -47,3 +48,12 @@ for (button of buttons) {
     })
   });
 }
+
+/* Get Random Fact */
+const next = document.getElementById('next')
+next.addEventListener('click', () => {
+    getJoke(randomCategory).then(joke => {
+        const {categories, icon_url, id, url, value} = joke
+        document.getElementById('category-fact').innerHTML = value
+    })
+})
