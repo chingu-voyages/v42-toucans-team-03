@@ -21,3 +21,14 @@ getJoke().then(joke => {
 
     document.getElementById('fact').innerHTML = value
 })
+
+/* Enter Website */
+const pages = document.getElementsByTagName('main')
+const enter = document.getElementById('enter')
+
+enter.addEventListener('click', togglePage)
+
+function togglePage() {
+    pages[0].classList.toggle('hidden') /* hide home page */
+    pages[1].classList.toggle('hidden') /* show categories page */
+}
