@@ -189,12 +189,12 @@ hr {
 
 .members {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+  grid-template-columns: repeat(auto-fill, minmax(300px, auto));
   justify-items: center;
   gap: 2em 1em;
   margin: 5em auto;
   padding: 0 3em;
-  width: 100%;
+  max-width: 1250px;
 }
 
 .section--members-title {
