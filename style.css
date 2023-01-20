@@ -170,6 +170,7 @@ img {
   right: 2rem;
   background: url("Images/chuck-norris-kick.png") center no-repeat;
   background-size: contain;
+  cursor: pointer;
 }
 .next-container p {
   margin-top: 4rem;
