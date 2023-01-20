@@ -1,63 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>CN Facts</title>
   </head>
   <body>
-    <section id="landing-page">
+    <main class="landing-page">
       <div class="center">
         <h1>CN Facts</h1>
         <div id="fact"></div>
         <h2>Enter the World of Chuck Norris!</h2>
-        <button id="enter">Enter here</button>
+        <button id="enter" title="Click to Enter">Enter here</button>
       </div>
-    </section>
+    </main>
 
-    <div id="category-page">
+    <main class="category-page hidden">
       <div class="left">
         <h1>CN Facts</h1>
-        <hr class="left-hr">
-        <img src="images/chuck-norris-kick.png" alt="Chuck Norris doing a karate kick">
+        <hr class="left-hr" />
+        <img
+          src="images/chuck-norris-kick.png"
+          alt="Chuck Norris doing a karate kick"
+        />
       </div>
       <div class="right">
-          <hr class="right-hr">
-          <div class="categories">
-            <button class="category-button" id="animal">Animals</button>
-            <button class="category-button" id="career">Career</button>
-            <button class="category-button" id="celebrity">Celebrities</button>
-            <button class="category-button" id="dev">Dev</button>
-            <button class="category-button" id="fashion">Fashion</button>
-            <button class="category-button" id="food">Food</button>
-            <button class="category-button" id="history">History</button>
-            <button class="category-button" id="money">Money</button>
-            <button class="category-button" id="movie">Movies</button>
-            <button class="category-button" id="music">Music</button>
-            <button class="category-button" id="science">Science</button>
-            <button class="category-button" id="sport">Sports</button>
-            <button class="category-button" id="travel">Travel</button>
-          </div>
-       </div>
+        <hr class="right-hr" />
+        <div class="categories">
+          <button class="category-button" id="animal">Animal</button>
+          <button class="category-button" id="career">Career</button>
+          <button class="category-button" id="celebrity">Celebrity</button>
+          <button class="category-button" id="dev">Dev</button>
+          <button class="category-button" id="fashion">Fashion</button>
+          <button class="category-button" id="food">Food</button>
+          <button class="category-button" id="history">History</button>
+          <button class="category-button" id="money">Money</button>
+          <button class="category-button" id="movie">Movie</button>
+          <button class="category-button" id="music">Music</button>
+          <button class="category-button" id="science">Science</button>
+          <button class="category-button" id="sport">Sport</button>
+          <button class="category-button" id="travel">Travel</button>
+        </div>
       </div>
+    </main>
 
-    <section id="fact-page">
+    <main class="fact-page hidden">
       <div class="chuck-approved"></div>
       <div class="fact-container">
         <div id="category-fact">
-          <!-- Added text for formatting.  This is where the fact received from
-               the category call to the api will go.  -->
-          Chuck Norris does not follow fashion trends, they follow him. But then 
-          he turns around and kicks their ass. Nobody follows Chuck Norris.
+          <!-- Category Joke -->
         </div>
       </div>
       <div class="autograph"></div>
-      <div class="next-container">
+      <div class="next-container" id="next" title="Next Fact">
         <p class="next-text">Next</p>
       </div>
-    </section>
+    </main>
 
     <script src="index.js"></script>
   </body>

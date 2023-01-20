@@ -11,16 +11,16 @@
   box-sizing: border-box;
 }
 :root {
-  --primary-color:  #bb4e1e;
+  --primary-color: #bb4e1e;
 }
 body {
   margin: 0;
   width: 100vw;
   height: 100vh;
-  font-family: 'DM Sans-Regular', 'Dejavu Sans', Verdana, sans-serif;
+  font-family: "DM Sans-Regular", "Dejavu Sans", Verdana, sans-serif;
 }
 h1 {
-  font-family: 'Bantangas', 'Bodoni MT', 'Bodoni 72', Garamond, serif;
+  font-family: "Bantangas", "Bodoni MT", "Bodoni 72", Garamond, serif;
   font-size: 3rem;
   color: var(--primary-color);
 }
@@ -29,7 +29,7 @@ h2 {
 }
 
 /* CSS for Landing Page */
-#landing-page {
+.landing-page {
   width: 100vw;
   height: 100vh;
   background: url("images/norris-background.jpg") center no-repeat;
@@ -52,10 +52,11 @@ h2 {
   font-size: larger;
   padding: 1rem;
   width: 40vw;
+  cursor: pointer;
 }
 
 /* CSS for Category Page */
-#category-page {
+.category-page {
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -111,7 +112,7 @@ img {
   width: 25vw;
   height: 4.2vh;
   background-color: white;
-  font-family: 'DM Sans-Regular', 'Dejavu Sans', Verdana, sans-serif;
+  font-family: "DM Sans-Regular", "Dejavu Sans", Verdana, sans-serif;
   font-size: 1rem;
   color: var(--primary-color);
   cursor: pointer;
@@ -120,7 +121,7 @@ img {
 }
 
 /* CSS for Fact Page */
-#fact-page {
+.fact-page {
   width: 100vw;
   height: 100vh;
   position: relative;
@@ -136,7 +137,7 @@ img {
   left: 7rem;
   background: url("images/chuck-approved.png") center no-repeat;
   background-size: contain;
-  transform: rotate(-8.96deg)
+  transform: rotate(-8.96deg);
 }
 .fact-container {
   width: 53vw;
@@ -169,10 +170,15 @@ img {
   right: 2rem;
   background: url("images/chuck-norris-kick.png") center no-repeat;
   background-size: contain;
-
+  cursor: pointer;
 }
 .next-container p {
   margin-top: 4rem;
   margin-left: 6rem;
   font-size: 1.5rem;
+}
+
+/* hide elements */
+.hidden {
+  display: none;
 }

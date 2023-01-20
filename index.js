@@ -21,3 +21,39 @@ getJoke().then(joke => {
 
     document.getElementById('fact').innerHTML = value
 })
+
+/* Enter Website */
+const pages = document.getElementsByTagName('main')
+const enter = document.getElementById('enter')
+
+enter.addEventListener('click', togglePage)
+
+function togglePage() {
+    pages[0].classList.toggle('hidden') /* hide home page */
+    pages[1].classList.toggle('hidden') /* show categories page */
+}
+
+/* Get Fact by Category */
+const buttons = document.getElementsByClassName("category-button");
+
+for (button of buttons) {
+  button.addEventListener("click", (e) => {
+    pages[1].classList.toggle('hidden') /* hide categories page */
+    pages[2].classList.toggle('hidden') /* show fact page */
+
+    input = e.target.innerText.toLowerCase(); /* select button text, convert to lowercase*/
+    getJoke(input).then(joke => {
+        const {categories, icon_url, id, url, value} = joke
+        document.getElementById('category-fact').innerHTML = value
+    })
+  });
+}
+
+/* Get Random Fact */
+const next = document.getElementById('next')
+next.addEventListener('click', () => {
+    getJoke(randomCategory).then(joke => {
+        const {categories, icon_url, id, url, value} = joke
+        document.getElementById('category-fact').innerHTML = value
+    })
+})
