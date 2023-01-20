@@ -32,3 +32,11 @@ function togglePage() {
     pages[0].classList.toggle('hidden') /* hide home page */
     pages[1].classList.toggle('hidden') /* show categories page */
 }
+
+const buttons = document.getElementsByClassName("category-button");
+
+for (button of buttons) {
+  button.addEventListener("click", (e) => {
+
+  });
+}
