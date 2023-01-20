@@ -52,6 +52,7 @@ h2 {
   font-size: larger;
   padding: 1rem;
   width: 40vw;
+  cursor: pointer;
 }
 
 /* CSS for Category Page */
