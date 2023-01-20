@@ -1,11 +1,11 @@
 @font-face {
   font-family: "Bantangas";
-  src: url("Fonts/Batangas/Web Fonts/Batangas-Bold.woff2");
-  src: url("Fonts/Batangas/Web Fonts/Batangas-Bold.woff");
+  src: url("fonts/Batangas/Batangas-Bold.woff2");
+  src: url("fonts/Batangas/Batangas-Bold.woff");
 }
 @font-face {
   font-family: "DM Sans-Regular";
-  src: url("Fonts/DM_Sans/DMSans-Regular.ttf");
+  src: url("fonts/DM_Sans/DMSans-Regular.ttf");
 }
 * {
   box-sizing: border-box;
@@ -32,7 +32,7 @@ h2 {
 #landing-page {
   width: 100vw;
   height: 100vh;
-  background: url("Images/norris-background.jpg") center no-repeat;
+  background: url("images/norris-background.jpg") center no-repeat;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -134,7 +134,7 @@ img {
   height: 22vw;
   top: 3rem;
   left: 7rem;
-  background: url("Images/chuck-approved.png") center no-repeat;
+  background: url("images/chuck-approved.png") center no-repeat;
   background-size: contain;
   transform: rotate(-8.96deg)
 }
@@ -157,7 +157,7 @@ img {
   position: absolute;
   top: 21.5em;
   left: 30em;
-  background: url("Images/autograph.png") center no-repeat;
+  background: url("images/autograph.png") center no-repeat;
   background-size: contain;
   z-index: 2;
 }
@@ -167,7 +167,7 @@ img {
   position: absolute;
   bottom: 2rem;
   right: 2rem;
-  background: url("Images/chuck-norris-kick.png") center no-repeat;
+  background: url("images/chuck-norris-kick.png") center no-repeat;
   background-size: contain;
 
 }
