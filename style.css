@@ -19,6 +19,10 @@ body {
   height: 100vh;
   font-family: "DM Sans-Regular", "Dejavu Sans", Verdana, sans-serif;
 }
+img {
+  display: block;
+  max-width: 100%;
+}
 h1 {
   font-family: "Bantangas", "Bodoni MT", "Bodoni 72", Garamond, serif;
   font-size: 3rem;
@@ -93,7 +97,7 @@ hr {
   background-color: white;
   left: 0;
 }
-img {
+.CN-kick {
   height: 50vh;
   position: absolute;
   top: 35vh;
@@ -182,3 +186,59 @@ img {
 .hidden {
   display: none;
 }
+
+.members {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, auto));
+  justify-items: center;
+  gap: 2em 1em;
+  margin: 5em auto;
+  padding: 0 3em;
+  width: 100%;
+}
+
+.section--members-title {
+  grid-column: 1 / -1;
+  font-size: 2rem;
+}
+
+.member-card {
+  /* max-width: 500px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2em;
+  padding: 1em 6em;
+  border: 1px solid black;
+  border-radius: 15px;
+  box-shadow: 6px 6px 3px rgba(0, 0, 0, 0.15);
+}
+
+.member-icon {
+  width: 250px;
+  border-radius: 50%;
+  box-shadow: 6px 6px 3px rgba(0, 0, 0, 0.15);
+}
+
+.member-name {
+  font-size: 1.5rem;
+  margin-bottom: 0;
+}
+
+.member-about {
+  margin-top: 0;
+}
+
+i {
+  color: black;
+  font-size: 2rem;
+}
+
+i:hover,
+i:focus {
+  color: #fff;
+  background: black;
+  padding: .01em; 
+  border-radius: 7px;
+}
+
