@@ -37,6 +37,7 @@ const buttons = document.getElementsByClassName("category-button");
 
 for (button of buttons) {
   button.addEventListener("click", (e) => {
-
+    pages[1].classList.toggle('hidden') /* hide categories page */
+    pages[2].classList.toggle('hidden') /* show fact page */
   });
 }
