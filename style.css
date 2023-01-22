@@ -51,11 +51,11 @@ h2 {
   background-color: white;
 }
 #enter {
-  width: 250px;
-  height: 50px;
-  font-size: 20px;
+  width: 20vw;
+  height: 8vh;
+  font-size: 1.2rem;
   border: 2px black solid;
-  border-radius: 28px;
+  border-radius: 4vh;
   background-color: white;
   cursor: pointer;
   transition-duration: 400ms;
