@@ -60,7 +60,6 @@ h2 {
   cursor: pointer;
   transition-duration: 400ms;
 }
-
 #enter:hover {
   background-color: var(--primary-color);
 }
