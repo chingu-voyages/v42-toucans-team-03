@@ -138,7 +138,7 @@ hr {
   justify-content: center;
   align-items: center;
 }
-.chuck-approved {
+.chuck-approved-stamp {
   position: absolute;
   width: 22vw;
   height: 22vw;
@@ -146,7 +146,7 @@ hr {
   left: 7rem;
   transform: rotate(-8.96deg);
 }
-.fact-container {
+.fact-background {
   width: 53vw;
   height: 43vh;
   background: var(--primary-color);
@@ -167,7 +167,7 @@ hr {
   left: 30em;
   z-index: 2;
 }
-.next-container {
+.next-area {
   width: 10rem;
   height: 8rem;
   position: absolute;
@@ -177,7 +177,7 @@ hr {
   background-size: contain;
   cursor: pointer;
 }
-.next-container p {
+.next-area p {
   margin-top: 4rem;
   margin-left: 6rem;
   font-size: 1.5rem;
