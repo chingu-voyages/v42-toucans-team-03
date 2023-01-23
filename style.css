@@ -144,8 +144,6 @@ hr {
   height: 22vw;
   top: 3rem;
   left: 7rem;
-  background: url("images/chuck-approved.png") center no-repeat;
-  background-size: contain;
   transform: rotate(-8.96deg);
 }
 .fact-container {
@@ -167,8 +165,6 @@ hr {
   position: absolute;
   top: 21.5em;
   left: 30em;
-  background: url("images/autograph.png") center no-repeat;
-  background-size: contain;
   z-index: 2;
 }
 .next-container {
