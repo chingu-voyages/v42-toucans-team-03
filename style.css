@@ -138,6 +138,10 @@ hr {
   justify-content: center;
   align-items: center;
 }
+.fact-area {
+  display: flex;
+  flex-direction: column;
+}
 .chuck-approved-stamp {
   width: 22vw;
   height: 22vw;
