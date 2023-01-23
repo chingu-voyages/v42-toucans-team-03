@@ -132,7 +132,6 @@ hr {
 /* CSS for Fact Page */
 .fact-page {
   width: 100vw;
-  height: 100vh;
   position: relative;
   display: flex;
   justify-content: center;
@@ -149,7 +148,6 @@ hr {
 }
 .fact-background {
   width: 53vw;
-  height: 43vh;
   background: var(--primary-color);
   border-radius: 10px;
   z-index: 1;
