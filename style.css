@@ -139,11 +139,8 @@ hr {
   align-items: center;
 }
 .chuck-approved-stamp {
-  position: absolute;
   width: 22vw;
   height: 22vw;
-  top: 3rem;
-  left: 7rem;
   transform: rotate(-8.96deg);
 }
 .fact-background {
@@ -162,9 +159,6 @@ hr {
 .autograph {
   width: 32vw;
   height: 20vh;
-  position: absolute;
-  top: 21.5em;
-  left: 30em;
   z-index: 2;
 }
 .next-area {
