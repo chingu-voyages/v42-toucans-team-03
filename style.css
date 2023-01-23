@@ -51,12 +51,17 @@ h2 {
   background-color: white;
 }
 #enter {
+  width: 20vw;
+  height: 8vh;
+  font-size: 1.2rem;
   border: 2px black solid;
-  margin: 1rem;
-  font-size: larger;
-  padding: 1rem;
-  width: 40vw;
+  border-radius: 4vh;
+  background-color: white;
   cursor: pointer;
+  transition-duration: 400ms;
+}
+#enter:hover {
+  background-color: var(--primary-color);
 }
 
 /* CSS for Category Page */
