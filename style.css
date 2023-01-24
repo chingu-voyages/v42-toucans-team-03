@@ -145,6 +145,9 @@ hr {
 .chuck-approved-stamp {
   width: 22vw;
   height: 22vw;
+  position: absolute;
+  top: -11vw;
+  left: -15vw;
   transform: rotate(-8.96deg);
 }
 .fact-background {
