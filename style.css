@@ -138,6 +138,7 @@ hr {
   align-items: center;
 }
 .fact-area {
+  position: relative;
   display: flex;
   flex-direction: column;
 }
