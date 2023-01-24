@@ -192,6 +192,8 @@ hr {
 @media screen and (max-width: 600px) {
   .fact-background {
     width: 75vw;
+  .chuck-approved-stamp {
+    display: none;
   }
   #category-fact {
     padding: 1.5rem;
