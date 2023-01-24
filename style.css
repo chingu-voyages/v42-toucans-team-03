@@ -153,6 +153,7 @@ hr {
 }
 .fact-background {
   width: 53vw;
+  min-height: 30vh;
   background: var(--primary-color);
   border-radius: 10px;
   z-index: 1;
