@@ -166,6 +166,8 @@ hr {
   width: 32vw;
   height: 20vh;
   align-self: flex-end;
+  position: relative;
+  bottom: 10vh;
   z-index: 2;
 }
 .next-area {
