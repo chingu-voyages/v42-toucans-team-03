@@ -171,6 +171,7 @@ hr {
   align-self: flex-end;
   position: relative;
   bottom: 10vh;
+  object-fit: contain;
   z-index: 2;
 }
 .next-area {
