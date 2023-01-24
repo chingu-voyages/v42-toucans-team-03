@@ -165,6 +165,7 @@ hr {
 .autograph {
   width: 32vw;
   height: 20vh;
+  align-self: flex-end;
   z-index: 2;
 }
 .next-area {
