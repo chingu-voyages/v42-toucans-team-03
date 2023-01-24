@@ -32,6 +32,30 @@ h2 {
   font-size: 2.25rem;
 }
 
+/* Header */
+
+.header {
+  display: grid;
+  width: 100%;
+  gap: 1em;
+  grid-template-columns: auto  max-content min-content min-content 3em;
+  grid-template-areas: '. title home contributors .';
+  align-items: center;
+}
+
+.header--title {
+  grid-area: title;
+  margin-right: 2em;
+}
+
+.header--contributors {
+  grid-area: contributors;
+}
+
+.header--home {
+  grid-area: home;
+}
+
 /* CSS for Landing Page */
 .landing-page {
   width: 100vw;
