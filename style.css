@@ -132,7 +132,7 @@ hr {
 /* CSS for Fact Page */
 .fact-page {
   width: 100vw;
-  position: relative;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
