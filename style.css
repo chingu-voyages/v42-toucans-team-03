@@ -192,6 +192,8 @@ hr {
   display: none;
 }
 
+/* CSS for Contributors page */
+
 .members {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, auto));
