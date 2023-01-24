@@ -69,7 +69,6 @@ h2 {
   width: 100vw;
   height: 100vh;
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
@@ -112,14 +111,14 @@ hr {
   height: 78vh;
   position: relative;
   top: 20vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
+  padding: 5rem 6rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
 }
 .category-button {
-  width: 25vw;
-  height: 4.2vh;
+  width: 10vw;
+  height: 5vh;
   background-color: white;
   font-family: "DM Sans-Regular", "Dejavu Sans", Verdana, sans-serif;
   font-size: 1rem;
