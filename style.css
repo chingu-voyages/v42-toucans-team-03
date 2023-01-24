@@ -189,13 +189,15 @@ hr {
   margin-left: 6rem;
   font-size: 1.5rem;
 }
+@media screen and (max-width: 800px) {
+  .chuck-approved-stamp {
+    display: none;
+  }
+}
 @media screen and (max-width: 600px) {
   .fact-background {
     width: 75vw;
     min-height: 10vh;
-  }
-  .chuck-approved-stamp {
-    display: none;
   }
   #category-fact {
     padding: 3rem 1.5rem;
