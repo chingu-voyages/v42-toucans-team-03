@@ -33,6 +33,74 @@ h2 {
   font-size: 2.25rem;
 }
 
+/* Nav bar */
+
+.nav-container {
+  width: 100%;
+}
+
+.nav {
+  max-width: 1700px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr auto 1fr 1fr;
+  align-items: center;
+}
+
+.nav-title {
+  grid-column: 3;
+}
+
+.right-menu {
+  grid-column: 5;
+  justify-self: center;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100px;
+}
+
+.right-menu i {
+  font-size: 1.5rem;
+} 
+
+#nav-toggle,
+.burger-menu {
+  display: none;
+}
+
+.burger-menu {
+  grid-column: 3;
+  grid-row: 2;
+  justify-self: center;
+  margin-bottom: 1em;
+  margin-top: -2em;
+}
+
+.burger-menu i {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 500px) {
+  .burger-menu {
+    display: inline-block;
+  }
+
+  .right-menu {
+    display: none;
+  }
+
+  #nav-toggle:checked ~ .right-menu {
+    display: grid;
+    row-gap: 1em;
+    grid-row: 3;
+    grid-column: 3;
+    width: auto;
+    margin-bottom: 2em;
+  }
+}
+
 /* CSS for Landing Page */
 .landing-page {
   width: 100vw;
