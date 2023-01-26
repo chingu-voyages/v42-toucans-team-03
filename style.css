@@ -151,24 +151,27 @@ hr {
 .fact-page {
   width: 100vw;
   height: 100vh;
-  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.chuck-approved {
-  position: absolute;
+.fact-area {
+  position: relative;
+  top: 5vw;
+  display: flex;
+  flex-direction: column;
+}
+.chuck-approved-stamp {
   width: 22vw;
   height: 22vw;
-  top: 3rem;
-  left: 7rem;
-  background: url("images/chuck-approved.png") center no-repeat;
-  background-size: contain;
+  position: absolute;
+  top: -11vw;
+  left: -15vw;
   transform: rotate(-8.96deg);
 }
-.fact-container {
+.fact-background {
   width: 53vw;
-  height: 43vh;
+  min-height: 30vh;
   background: var(--primary-color);
   border-radius: 10px;
   z-index: 1;
@@ -177,19 +180,19 @@ hr {
   width: inherit;
   height: inherit;
   padding: 2rem;
+  padding-bottom: 3rem;
   font-size: 1.8rem;
 }
 .autograph {
   width: 32vw;
   height: 20vh;
-  position: absolute;
-  top: 21.5em;
-  left: 30em;
-  background: url("images/autograph.png") center no-repeat;
-  background-size: contain;
+  align-self: flex-end;
+  position: relative;
+  bottom: 10vh;
+  object-fit: contain;
   z-index: 2;
 }
-.next-container {
+.next-area {
   width: 10rem;
   height: 8rem;
   position: absolute;
@@ -199,10 +202,25 @@ hr {
   background-size: contain;
   cursor: pointer;
 }
-.next-container p {
+.next-area p {
   margin-top: 4rem;
   margin-left: 6rem;
   font-size: 1.5rem;
+}
+@media screen and (max-width: 800px) {
+  .chuck-approved-stamp {
+    display: none;
+  }
+}
+@media screen and (max-width: 600px) {
+  .fact-background {
+    width: 75vw;
+    min-height: 10vh;
+  }
+  #category-fact {
+    padding: 3rem 1.5rem;
+    font-size: 1.2rem;
+  }
 }
 
 /* hide elements */
