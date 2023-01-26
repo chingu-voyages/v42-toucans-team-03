@@ -25,8 +25,10 @@ getJoke().then(joke => {
 /* Enter Website */
 const pages = document.getElementsByTagName('main')
 const enter = document.getElementById('enter')
+const title = document.querySelector('.title')
 
 enter.addEventListener('click', togglePage)
+title.addEventListener('click', togglePage)
 
 function togglePage() {
     pages[0].classList.toggle('hidden') /* hide home page */
@@ -57,3 +59,21 @@ next.addEventListener('click', () => {
         document.getElementById('category-fact').innerHTML = value
     })
 })
+
+/* Button Animation */
+const animatedButtons = document.getElementsByClassName('category-button')
+
+// Detect when button element enters the viewport
+const observer = new IntersectionObserver((entries) => {
+    for (let entry of entries) {
+      if (entry.intersectionRatio > 0) {
+        entry.target.classList.add('anim') // run: add animation class
+  } else {
+    entry.target.classList.remove('anim') // reset: remove animation class
+  }
+    }
+})
+
+for (button of animatedButtons) {
+  observer.observe(button)
+}
