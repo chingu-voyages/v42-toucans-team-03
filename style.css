@@ -175,6 +175,10 @@ hr {
   .CN-kick {
     display: none;
   }
+  .categories {
+    height: fit-content;
+    top: 0;
+  }
   .category-button {
     width: 30vw;
     background-color: var(--primary-color);
