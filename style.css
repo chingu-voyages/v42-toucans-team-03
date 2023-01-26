@@ -158,11 +158,26 @@ hr {
     height: auto;
     min-width: 0;
   }
+  .left {
+    background-color: var(--primary-color);
+  }
+  .right {
+    background-color: white;
+  }
+  .category-page h1 {
+    color: white;
+    margin: 5rem 0;
+    text-align: center;
+  }
   .category-page hr {
     display: none;
   }
   .CN-kick {
     display: none;
+  }
+  .category-button {
+    background-color: var(--primary-color);
+    color: white;
   }
 
 /* CSS for Fact Page */
