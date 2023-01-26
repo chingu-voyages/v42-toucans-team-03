@@ -257,3 +257,17 @@ i:focus {
   padding: 0.01em;
   border-radius: 7px;
 }
+
+/* Scrollbar */
+.categories::-webkit-scrollbar {
+  width: 0.6rem;
+}
+
+.categories::-webkit-scrollbar-track {
+  background: #1e1e24;
+  opacity: 0%;
+}
+
+.categories::-webkit-scrollbar-thumb {
+  background: white;
+}
