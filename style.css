@@ -147,7 +147,17 @@ hr {
   border-radius: 5vh;
 }
 @media screen and (max-width: 1000px) {
-}
+  .category-page {
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+  }
+  .left,
+  .right {
+    width: 100vw;
+    height: auto;
+    min-width: 0;
+  }
 
 /* CSS for Fact Page */
 .fact-page {
