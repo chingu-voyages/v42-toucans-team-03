@@ -176,6 +176,7 @@ hr {
     display: none;
   }
   .category-button {
+    width: 30vw;
     background-color: var(--primary-color);
     color: white;
   }
