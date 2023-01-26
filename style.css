@@ -146,6 +146,8 @@ hr {
   border: none;
   border-radius: 5vh;
 }
+@media screen and (max-width: 1000px) {
+}
 
 /* CSS for Fact Page */
 .fact-page {
