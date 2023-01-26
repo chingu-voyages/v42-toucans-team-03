@@ -158,6 +158,12 @@ hr {
     height: auto;
     min-width: 0;
   }
+  .category-page hr {
+    display: none;
+  }
+  .CN-kick {
+    display: none;
+  }
 
 /* CSS for Fact Page */
 .fact-page {
