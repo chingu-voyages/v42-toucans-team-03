@@ -271,3 +271,18 @@ i:focus {
 .categories::-webkit-scrollbar-thumb {
   background: white;
 }
+
+/* button animations */
+.anim {
+  animation: slide 1s ease;
+}
+
+@keyframes slide {
+  0% {
+    opacity: 0;
+    translate: 5rem;
+  }
+  100% {
+    opacity: 1;
+  }
+}

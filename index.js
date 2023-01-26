@@ -57,3 +57,21 @@ next.addEventListener('click', () => {
         document.getElementById('category-fact').innerHTML = value
     })
 })
+
+/* Button Animation */
+const animatedButtons = document.getElementsByClassName('category-button')
+
+// Detect when button element enters the viewport
+const observer = new IntersectionObserver((entries) => {
+    for (let entry of entries) {
+      if (entry.intersectionRatio > 0) {
+        entry.target.classList.add('anim') // run: add animation class
+  } else {
+    entry.target.classList.remove('anim') // reset: remove animation class
+  }
+    }
+})
+
+for (button of animatedButtons) {
+  observer.observe(button)
+}
