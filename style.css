@@ -47,8 +47,15 @@ h2 {
   width: 50vw;
   height: 100vh;
   padding: 5%;
-  text-align: center;
   background-color: white;
+}
+.center-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  gap: 2rem;
 }
 #enter {
   width: 20vw;
@@ -243,7 +250,6 @@ i:hover,
 i:focus {
   color: #fff;
   background: black;
-  padding: .01em; 
+  padding: 0.01em;
   border-radius: 7px;
 }
-
