@@ -25,8 +25,10 @@ getJoke().then(joke => {
 /* Enter Website */
 const pages = document.getElementsByTagName('main')
 const enter = document.getElementById('enter')
+const title = document.querySelector('.title')
 
 enter.addEventListener('click', togglePage)
+title.addEventListener('click', togglePage)
 
 function togglePage() {
     pages[0].classList.toggle('hidden') /* hide home page */

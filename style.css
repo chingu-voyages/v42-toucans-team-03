@@ -105,6 +105,9 @@ hr {
   position: absolute;
   top: 15vh;
 }
+.title {
+  cursor: pointer;
+}
 .left-hr {
   background-color: var(--primary-color);
   right: 0;
