@@ -9,6 +9,7 @@
 }
 * {
   box-sizing: border-box;
+  line-height: 1.5;
 }
 :root {
   --primary-color: #bb4e1e;
@@ -60,7 +61,7 @@ h2 {
 #enter {
   width: 20vw;
   height: 8vh;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   border: 2px black solid;
   border-radius: 4vh;
   background-color: white;
@@ -69,6 +70,10 @@ h2 {
 }
 #enter:hover {
   background-color: var(--primary-color);
+}
+
+#fact {
+  font-size: 1.5rem;
 }
 
 /* CSS for Category Page */
