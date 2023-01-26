@@ -40,7 +40,6 @@ h2 {
   background: url("images/norris-background.jpg") center no-repeat;
   background-size: cover;
   display: flex;
-  flex-direction: column;
   justify-content: space-around;
   align-items: center;
 }
