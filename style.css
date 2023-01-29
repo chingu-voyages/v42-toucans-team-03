@@ -111,7 +111,6 @@ h2 {
   background: url("images/norris-background.jpg") center no-repeat;
   background-size: cover;
   display: flex;
-  justify-content: space-around;
   align-items: center;
 }
 .center {
