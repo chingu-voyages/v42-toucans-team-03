@@ -219,6 +219,13 @@ hr {
   border: none;
   border-radius: 5vh;
 }
+button {
+  transition: transform 400ms;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
 @media screen and (max-width: 1000px) {
   .category-page {
     flex-direction: column;
@@ -394,6 +401,7 @@ hr {
 i {
   color: black;
   font-size: 2rem;
+  transition: transform 400ms;
 }
 
 i:hover,
@@ -402,6 +410,7 @@ i:focus {
   background: black;
   padding: 0.01em;
   border-radius: 7px;
+  transform: scale(1.1);
 }
 
 /* Scrollbar */
