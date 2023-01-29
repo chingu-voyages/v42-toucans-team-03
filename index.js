@@ -33,6 +33,7 @@ title.addEventListener('click', togglePage)
 function togglePage() {
     pages[0].classList.toggle('hidden') /* hide home page */
     pages[1].classList.toggle('hidden') /* show categories page */
+    showNavBar()
 }
 
 /* Get Fact by Category */
@@ -77,3 +78,11 @@ const observer = new IntersectionObserver((entries) => {
 for (button of animatedButtons) {
   observer.observe(button)
 }
+
+function showNavBar() {
+  !pages[0].classList.contains('hidden') ? 
+    document.getElementById('nav-container').classList.add('hidden')
+    : document.getElementById('nav-container').classList.remove('hidden')
+} 
+
+showNavBar()
