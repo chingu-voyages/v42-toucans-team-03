@@ -33,10 +33,21 @@ h2 {
   font-size: 2.25rem;
 }
 
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+a:hover {
+  text-decoration: underline;
+}
+
 /* Nav bar */
 
 .nav-container {
   width: 100%;
+  position: absolute;
+  width: 100%;
+  z-index: 10;
 }
 
 .nav {
@@ -45,6 +56,7 @@ h2 {
   display: grid;
   grid-template-columns: 1fr 1fr auto 1fr 1fr;
   align-items: center;
+  height: 15vh;
 }
 
 .nav-title {
@@ -63,7 +75,7 @@ h2 {
 
 .right-menu i {
   font-size: 1.5rem;
-} 
+}
 
 #nav-toggle,
 .burger-menu {
@@ -107,10 +119,11 @@ h2 {
   height: 100vh;
   background: url("images/norris-background.jpg") center no-repeat;
   background-size: cover;
+  background-position: left;
   display: flex;
-  justify-content: space-around;
   align-items: center;
 }
+
 .center {
   width: 50vw;
   height: 100vh;
@@ -214,6 +227,13 @@ hr {
   border: none;
   border-radius: 5vh;
 }
+button {
+  transition: transform 400ms;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
 @media screen and (max-width: 1000px) {
   .category-page {
     flex-direction: column;
@@ -258,7 +278,6 @@ hr {
     width: 50vw;
   }
 }
-
 
 /* CSS for Fact Page */
 .fact-page {
@@ -314,7 +333,12 @@ hr {
   background: url("images/chuck-norris-kick.png") center no-repeat;
   background-size: contain;
   cursor: pointer;
+  transition: transform 400ms;
 }
+.next-area:hover {
+  transform: scale(1.1);
+}
+
 .next-area p {
   margin-top: 4rem;
   margin-left: 6rem;
@@ -386,6 +410,7 @@ hr {
 i {
   color: black;
   font-size: 2rem;
+  transition: transform 400ms;
 }
 
 i:hover,
@@ -394,6 +419,7 @@ i:focus {
   background: black;
   padding: 0.01em;
   border-radius: 7px;
+  transform: scale(1.1);
 }
 
 /* Scrollbar */
