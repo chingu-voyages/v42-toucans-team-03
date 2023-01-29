@@ -37,6 +37,8 @@ h2 {
 
 .nav-container {
   width: 100%;
+  position: fixed;
+  width: 100%;
 }
 
 .nav {
@@ -63,7 +65,7 @@ h2 {
 
 .right-menu i {
   font-size: 1.5rem;
-} 
+}
 
 #nav-toggle,
 .burger-menu {
@@ -258,7 +260,6 @@ hr {
     width: 50vw;
   }
 }
-
 
 /* CSS for Fact Page */
 .fact-page {
