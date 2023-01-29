@@ -33,6 +33,14 @@ h2 {
   font-size: 2.25rem;
 }
 
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+a:hover {
+  text-decoration: underline;
+}
+
 /* Nav bar */
 
 .nav-container {
@@ -330,6 +338,7 @@ button:hover {
 .next-area:hover {
   transform: scale(1.1);
 }
+
 .next-area p {
   margin-top: 4rem;
   margin-left: 6rem;
