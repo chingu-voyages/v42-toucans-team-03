@@ -15,23 +15,21 @@
     <title>Facts of Fury</title>
   </head>
   <body>
-    <header class="nav-container">
-      <nav class="nav">
-        <input type="checkbox" id="nav-toggle" />
-        <label for="nav-toggle" class="burger-menu">
-          <i class="fa-solid fa-bars"></i>
-        </label>
-        <h2 class="nav-title"></h2>
-
-        <div class="right-menu">
-          <a href="index.html">
-            <i class="fa-solid fa-house"></i>
-          </a>
-          <a href="contributors.html">
-            <i class="fa-solid fa-people-group"></i>
-          </a>
-        </div>
-      </nav>
+    <header class="nav-container hidden" id="nav-container">
+      <button id="nav-toggle">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <div class="right-menu" id="right-menu">
+        <a href="index.html">
+          <i class="fa-solid fa-house"></i>
+        </a>
+        <a href="contributors.html">
+          <i class="fa-solid fa-people-group"></i>
+        </a>
+        <button id="nav-close" class="nav-close">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
     </header>
 
     <main class="landing-page">
@@ -108,6 +106,6 @@
     </main>
 
     <script src="index.js"></script>
-    <script src="utils.js"></script>
+    <script src="navBar.js"></script>
   </body>
 </html>
