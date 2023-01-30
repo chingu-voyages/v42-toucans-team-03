@@ -313,8 +313,40 @@ button:hover {
   cursor: pointer;
   transition: transform 400ms;
 }
-.next-area:hover {
-  transform: scale(1.1);
+
+.back-area {
+  width: 10rem;
+  height: 8rem;
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+  background: url("images/chuck-norris-kick.png") center no-repeat;
+  background-size: contain;
+  cursor: pointer;
+  transition: transform 200ms;
+  transform: scaleX(1);
+}
+
+.back-area:hover {
+  transform: scaleX(-1);
+}
+
+.back-area:hover::before {
+  content: 'Back';
+  font-size: 1.5rem;
+  position: relative;
+  bottom: -2.5em;
+  left: 3.5em;
+}
+
+.back-text {
+  position: fixed;
+  bottom: .35em;
+  left: 3.5em;
+}
+
+.next-area:hover{
+  transform: scaleX(1.1);
 }
 
 .next-area p {
