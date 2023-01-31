@@ -342,6 +342,17 @@ button:hover {
 .next-area:hover {
   transform: scale(1.1);
 }
+.next-img:hover {
+  transition: rotate 400ms ease-in-out;
+  rotate: 360deg;
+}
+.next-area:hover::before {
+  content: "Next";
+  font-size: 4vmin;
+  position: relative;
+  bottom: -14vmin;
+  left: 11vmin;
+}
 
 @media screen and (max-width: 800px) {
   .chuck-approved-stamp {
