@@ -309,6 +309,11 @@ button:hover {
   left: 0;
   margin: 2rem;
   cursor: pointer;
+  overflow: hidden;
+  transition: transform 400ms;
+}
+.back-area:hover {
+  transform: scale(1.1);
 }
 .back-img {
   transform: scaleX(-1);
