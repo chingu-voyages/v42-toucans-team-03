@@ -313,6 +313,17 @@ button:hover {
 .back-img {
   transform: scaleX(-1);
 }
+.back-img:hover {
+  transition: rotate 400ms ease-in-out;
+  rotate: 360deg;
+}
+.back-area:hover::before {
+  content: "Back";
+  font-size: 4vmin;
+  position: relative;
+  bottom: -14vmin;
+  left: 0;
+}
 .next-area {
   width: 10rem;
   height: 8rem;
