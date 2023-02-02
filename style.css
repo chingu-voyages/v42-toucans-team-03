@@ -63,7 +63,7 @@ a:hover {
 }
 
 #nav-toggle i:hover {
-  padding: .1em;
+  padding: 0.1em;
 }
 
 .right-menu {
@@ -76,12 +76,12 @@ a:hover {
   z-index: 2;
 }
 
-.right-menu > *{
-  margin-right: .75em;
+.right-menu > * {
+  margin-right: 0.75em;
 }
 
 .right-menu i:hover,
-.nav-container button i:hover  {
+.nav-container button i:hover {
   background: #1e1e24;
   color: white;
   transform: scale(1.2);
@@ -302,26 +302,58 @@ button:hover {
   object-fit: contain;
   z-index: 2;
 }
-.next-area {
-  width: 10rem;
-  height: 8rem;
+.back-area {
+  width: 20vmin;
   position: absolute;
-  bottom: 2rem;
-  right: 2rem;
-  background: url("images/chuck-norris-kick.png") center no-repeat;
-  background-size: contain;
+  bottom: 0;
+  left: 0;
+  margin: 2rem;
   cursor: pointer;
+  overflow: hidden;
+  transition: transform 400ms;
+}
+.back-area:hover {
+  transform: scale(1.1);
+}
+.back-img {
+  transform: scaleX(-1);
+}
+.back-img:hover {
+  transition: rotate 400ms ease-in-out;
+  rotate: 360deg;
+}
+.back-area:hover::before {
+  content: "Back";
+  font-size: 4vmin;
+  position: relative;
+  bottom: -14vmin;
+  left: 0;
+}
+.next-area {
+  width: 20vmin;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 2rem;
+  cursor: pointer;
+  overflow: hidden;
   transition: transform 400ms;
 }
 .next-area:hover {
   transform: scale(1.1);
 }
-
-.next-area p {
-  margin-top: 4rem;
-  margin-left: 6rem;
-  font-size: 1.5rem;
+.next-img:hover {
+  transition: rotate 400ms ease-in-out;
+  rotate: 360deg;
 }
+.next-area:hover::before {
+  content: "Next";
+  font-size: 4vmin;
+  position: relative;
+  bottom: -14vmin;
+  left: 11vmin;
+}
+
 @media screen and (max-width: 800px) {
   .chuck-approved-stamp {
     display: none;
@@ -343,7 +375,7 @@ button:hover {
   display: none;
 }
 
-.body .nav-container i{
+.body .nav-container i {
   color: #1e1e24;
 }
 
@@ -429,7 +461,7 @@ i:focus {
 }
 
 .fade {
-  animation: fade 2s ease
+  animation: fade 2s ease;
 }
 
 @keyframes slide {

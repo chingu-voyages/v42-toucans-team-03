@@ -79,6 +79,12 @@ for (button of animatedButtons) {
   observer.observe(button)
 }
 
+document.getElementById('back').addEventListener('click', () => {
+  pages[2].classList.add('hidden')
+  pages[1].classList.remove('hidden')
+})
+
+
 function showNavBar() {
   !pages[0].classList.contains('hidden') ? 
     document.getElementById('nav-container').classList.add('hidden')
