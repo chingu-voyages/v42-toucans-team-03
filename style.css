@@ -468,14 +468,14 @@ footer {
   max-width: 1000px;
   min-height: 30vh;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   margin: auto;
 }
 
 .left-footer,
 .right-footer {
-  width: 90%;
+  width: 40%;
 }
 
 .right-footer {
@@ -487,6 +487,7 @@ footer i {
   color: #bb4e1e;
   border-radius: 20%;
   padding: .2em;
+  margin-bottom: 1em;
 }
 
 footer i:hover {
