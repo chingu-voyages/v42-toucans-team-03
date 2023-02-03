@@ -95,9 +95,6 @@ a:hover {
 .landing-page {
   width: 100vw;
   height: 100vh;
-  background: url("images/norris-background.jpg") center no-repeat;
-  background-size: cover;
-  background-position: left;
   display: flex;
   align-items: center;
 }
@@ -451,7 +448,7 @@ footer {
 }
 
 .footer-text {
-  font-size: .75rem;
+  font-size: 0.75rem;
 }
 
 .disclaimer-text {
@@ -486,16 +483,16 @@ footer i {
   background-color: #fff;
   color: #bb4e1e;
   border-radius: 20%;
-  padding: .2em;
+  padding: 0.2em;
   margin-bottom: 1em;
 }
 
 footer i:hover {
-  padding: .2em;
-  background: rgba(0, 0, 0, .4);
+  padding: 0.2em;
+  background: rgba(0, 0, 0, 0.4);
 }
 
-@media (min-width:600px) {
+@media (min-width: 600px) {
   .footer-container {
     flex-direction: row;
   }
