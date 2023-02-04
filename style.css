@@ -152,6 +152,15 @@ a:hover {
   font-size: 1.5rem;
 }
 
+.link {
+  color: black;
+  font-weight: 800;
+}
+.link:hover {
+  background: #ff953e;
+  text-decoration: none;
+}
+
 @media screen and (max-width: 600px) {
   .center {
     width: 100vw;
