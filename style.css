@@ -247,12 +247,15 @@ hr {
   border: none;
   border-radius: 5vh;
 }
-button {
+button,
+#kicking-chuck {
   transition: transform 400ms;
 }
 
-button:hover {
+button:hover,
+#kicking-chuck:hover {
   transform: scale(1.1);
+  cursor: pointer;
 }
 @media screen and (max-width: 1000px) {
   .category-page {
