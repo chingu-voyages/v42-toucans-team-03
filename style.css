@@ -107,6 +107,7 @@ a:hover {
 
 .center {
   width: 50vw;
+  max-width: 450px;
   height: 100vh;
   padding: 5%;
   background-color: #ffffff90;
