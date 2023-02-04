@@ -115,6 +115,7 @@ a:hover {
   transition-duration: 400ms;
   position: relative;
   backdrop-filter: blur(10px);
+  overflow-y: scroll;
 }
 .center-content {
   display: flex;
