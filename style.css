@@ -136,7 +136,7 @@ a:hover {
   transition-duration: 400ms;
 }
 #enter:hover {
-  background-color: var(--primary-color);
+  background-color: #ff953e;
 }
 
 #fact {
