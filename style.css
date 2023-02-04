@@ -97,6 +97,15 @@ a:hover {
   height: 100vh;
 }
 
+.logo {
+  transition: transform 400ms;
+}
+
+.logo:hover {
+  transform: rotate(360deg);
+  cursor: crosshair;
+}
+
 .bg-video {
   height: 100vh;
   width: 100vw;
