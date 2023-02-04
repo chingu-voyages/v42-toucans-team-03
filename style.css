@@ -141,6 +141,13 @@ a:hover {
   font-size: 1.5rem;
 }
 
+@media screen and (max-width: 600px) {
+  .center {
+    width: 100vw;
+    max-width: 100vw;
+  }
+}
+
 /* CSS for Category Page */
 .category-page {
   width: 100vw;
