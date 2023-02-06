@@ -587,3 +587,27 @@ footer i:hover {
     opacity: 1;
   }
 }
+
+/*share icons */
+
+.share-menu {
+  float: right;
+  display: flex;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.icon {
+  float: right;
+  cursor: pointer;
+  transition-duration: 400ms;
+}
+
+#tw-share:hover {
+  transform: scale(1.1);
+  fill: #05acee;
+}
+#fb-share:hover {
+  transform: scale(1.1);
+  fill: #0055ff;
+}
