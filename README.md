@@ -19,10 +19,5 @@ Other features include:
 * Animation to increase user engagement
 * A Team page to introduce all collaborators including links to social media
 * Responsiveness - layouts created for mobile screens through desktop monitors
-* Navigation system with ...
-
-
-
-A list of contributors
-
-
+* Two navigation systems.  The first is the natural progression of clicking through the landing page to a category page with a list of possible choices or the ability to let Chuck choose by clicking on him.  The third page displays the fact and allows the possibility of showing a new fact or moving back to the category page.  The second navigation system is a menu bar hidden by a hamburger menu with icons for the home page and a teams page.
+* The ability to share to Twitter or Facebook
