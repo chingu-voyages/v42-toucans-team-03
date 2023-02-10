@@ -426,6 +426,20 @@ button:hover,
     padding: 3rem 1.5rem;
     font-size: 1.2rem;
   }
+  .back-area:before {
+    content: "Back";
+    font-size: 4vmin;
+    position: relative;
+    bottom: -14vmin;
+    left: 0vmin;
+  }
+  .next-area:before {
+    content: "Next";
+    font-size: 4vmin;
+    position: relative;
+    bottom: -14vmin;
+    left: 11vmin;
+  }
 }
 
 /* hide elements */
