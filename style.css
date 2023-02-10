@@ -1,7 +1,6 @@
 @font-face {
-  font-family: "Bantangas";
-  src: url("fonts/batangas/Batangas-Bold.woff2");
-  src: url("fonts/batangas/Batangas-Bold.woff");
+  font-family: "Teko";
+  src: url("fonts/teko/Teko-Medium.ttf");
   font-display: swap;
 }
 @font-face {
@@ -27,9 +26,10 @@ img {
   max-width: 100%;
 }
 h1 {
-  font-family: "Bantangas", "Bodoni MT", "Bodoni 72", Garamond, serif;
+  font-family: "Teko", "DM Sans-Regular", "Dejavu Sans", Verdana, sans-serif;
   font-size: 3rem;
   color: var(--primary-color);
+  text-transform: uppercase;
 }
 h2 {
   font-size: 2.25rem;
@@ -212,6 +212,7 @@ hr {
 }
 .title {
   cursor: pointer;
+  padding-left: 2rem;
 }
 .left-hr {
   background-color: var(--primary-color);
@@ -299,10 +300,18 @@ button:hover,
     background-color: var(--primary-color);
     color: white;
   }
+  .title {
+    cursor: pointer;
+    padding-left: 0;
+  }
 }
 @media screen and (max-width: 600px) {
   .category-button {
     width: 50vw;
+  }
+  .title {
+    cursor: pointer;
+    padding-left: 0;
   }
 }
 
