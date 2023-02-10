@@ -4,7 +4,7 @@
 
 Chingu - Brings together remote teams of learning developers to experience collaborating on a software project using modern communication tools, replicating the process used at the companies we hope to be hired at.
 
-During a Chingu Voyage, the team designs, plans, develops, codes, and deploys a complete software project in six weeks.  From communication on Discord, creation of a wireframe on Figma, task-tracking on Jira, and code sharing on GitHub ...
+During a Chingu Voyage, the team designs, plans, develops, codes, and deploys a complete software project in six weeks.  From communication on Discord, creation of a wireframe on Figma, task-tracking on Jira, and code sharing on GitHub collaborative tools are used throughout.
 
 The Tier One requirements for Chingu Voyage 42 are found at https://github.com/chingu-voyages/voyage-project-tier1-norris.  Build a web-based application that retrieves Chuck Norris facts from the Chuck Norris API project.  
 
