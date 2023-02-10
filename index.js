@@ -61,6 +61,21 @@ function getRandomFact() {
 })
 }
 
+/* Share Fact */
+document.querySelector('.share-menu').addEventListener('click', shareFact)
+
+function shareFact(event) {
+  let fact = document.querySelector('#category-fact').innerHTML;
+  let factEncoded = encodeURI(fact);
+  if (event.target.id == 'twitter-share') {
+    let url = "https://twitter.com/intent/tweet?url=https%3A%2F%2Fchingu-voyages.github.io%2Fv42-toucans-team-03%2F&text=";
+    window.open(`${url}${factEncoded}`, "_blank");
+  }
+  else if (event.target.id == 'facebook-share') {
+    window.open("https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fchingu-voyages.github.io%2Fv42-toucans-team-03%2Findex.html&amp;src=sdkpreparse", "_blank");
+  }
+}
+
 document.getElementById('kicking-chuck').addEventListener('click', () => {
   pages[1].classList.toggle('hidden') /* hide categories page */
   pages[2].classList.toggle('hidden') /* show fact page */
